@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhouqianbin.demo.ui.XunfeiEngineTestActivity">
+
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/engine_et_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_start_syn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始合成"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_stop_syn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止合成"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_pause_syn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂停合成"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_resume_syn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="继续合成"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_start_recong_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语音识别带框"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_start_recong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语音识别不带框"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_stop_recong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止识别"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_start_wake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启唤醒监听"
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/engine_btn_stop_wake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭唤醒监听"
+            />
+    </LinearLayout>
+
+</LinearLayout>

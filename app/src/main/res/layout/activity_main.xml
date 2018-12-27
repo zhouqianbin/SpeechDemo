@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhouqianbin.demo.ui.MainActivity">
+
+
+    <Button
+        android:id="@+id/speech_synth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="语音合成"
+        />
+
+    <Button
+        android:id="@+id/speech_recong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="语音识别"
+        />
+
+    <Button
+        android:id="@+id/speech_wake_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="语音唤醒"
+        />
+
+    <Button
+        android:id="@+id/speech_grammar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="语法识别"
+        />
+
+    <Button
+        android:id="@+id/speech_aiui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AIUI"
+        />
+
+    <Button
+        android:id="@+id/speech_tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="工具类测试"
+        />
+
+</LinearLayout>

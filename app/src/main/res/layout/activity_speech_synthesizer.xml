@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhouqianbin.demo.ui.SpeechSynthesizerActivity">
+
+
+    <EditText
+        android:id="@+id/syn_et_text"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="12月18日，习近平出席庆祝改革开放40周年大会并发表重要讲话。在讲话中，他提出了改革开放40年实践的九点启示。这九点启示对当下和未来有什么样的指导意义？新华社《学习进行时》原创品牌栏目“讲习所”今天推出文章，为您解读。"
+        />
+
+    <Button
+        android:id="@+id/syn_btn_start_syn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始合成"
+        />
+
+    <Button
+        android:id="@+id/syn_btn_stop_syn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止合成"
+        />
+
+    <Button
+        android:id="@+id/syn_btn_pause_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停播放"
+        />
+
+    <Button
+        android:id="@+id/syn_btn_resume_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="继续播放"
+        />
+
+</LinearLayout>
